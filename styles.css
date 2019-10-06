@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+ 
+ .conteiner {
+   
+    width: 1000px;
+    height: 500px;
+    background: rgb(40, 85, 116);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.form, .contacts_social {
+    height: 400px;
+    display: inline-block;
+   
+}
+
+.contacts_social{
+    width: 300px;
+    float: right;
+    margin-right: 40px;
+}
+h2 {
+    text-align: center;
+    padding-top: 20px;
+}
+.form{
+    padding-left: 100px;
+    
+}
+
+.input {
+    width: 500px;
+    height: 30px;
+}
+.input, .message, .button {
+    display: block;
+    border-radius: 5px;
+    margin-top: 20px
+}
+.message {
+    width: 500px;
+    height: 200px;
+}
+.button{
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+   margin: 20px auto 0;
+}
+.social_networks ul li {
+    float: left; 
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.contacts ul li {
+    margin-top: 20px;
+}
+
+a:hover {
+    box-shadow: 5px 5px 15px rgb(0, 0, 0);
+    transition: .3s;
+   
+}
